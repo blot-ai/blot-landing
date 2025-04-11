@@ -6,6 +6,8 @@ const nextConfig: NextConfig = {
     images: {
         domains: ["images.unsplash.com", "assets.aceternity.com"],
     },
+    basePath: "/blot-landing",
+    assetPrefix: "/blot-landing/",
 }
 
 export default nextConfig
