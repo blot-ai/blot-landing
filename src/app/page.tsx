@@ -1,6 +1,5 @@
 "use client"
 
-import Image from "next/image"
 import HeroHighlightDemo from "@/components/hero-highlight-demo"
 import FeaturesSectionDemo from "@/components/ui/features-section-demo-3"
 import TypewriterEffectSmoothDemo from "@/components/typewriter-effect-demo-1"
