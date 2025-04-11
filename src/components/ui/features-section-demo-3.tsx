@@ -144,7 +144,7 @@ export const SkeletonOne = ({
             <div className="w-full p-5 mx-auto bg-white dark:bg-neutral-900group h-full">
                 <div className="flex flex-1 w-full h-full flex-col space-y-2">
                     <img
-                        src={`/images/${imageName}`}
+                        src={`/blot-landing/images/${imageName}`}
                         alt="header"
                         width={width}
                         height={height}
