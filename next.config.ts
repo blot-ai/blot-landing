@@ -4,6 +4,7 @@ const nextConfig: NextConfig = {
     /* config options here */
     output: "export",
     images: {
+        unoptimized: true,
         domains: ["images.unsplash.com", "assets.aceternity.com"],
     },
     basePath: "/blot-landing",
