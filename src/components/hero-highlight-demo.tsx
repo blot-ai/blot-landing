@@ -1,6 +1,7 @@
 "use client"
 import { motion } from "motion/react"
 import { HeroHighlight, Highlight } from "@/components/ui/hero-highlight"
+import { IconBrandGithub } from "@tabler/icons-react"
 
 export default function HeroHighlightDemo() {
     return (
@@ -38,7 +39,8 @@ export default function HeroHighlightDemo() {
                 </motion.p>
 
                 <a
-                    href="#tally-open=mJBRVz&tally-overlay=1&tally-emoji-text=👋&tally-emoji-animation=wave"
+                    href="https://github.com/lakshith-403/blot"
+                    target="_blank"
                     className="text-white cursor-pointer"
                 >
                     <motion.button
@@ -47,9 +49,10 @@ export default function HeroHighlightDemo() {
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.98 }}
                         transition={{ delay: 0.5, duration: 0.3 }}
-                        className="mt-4 px-8 py-3 rounded-full bg-indigo-600 hover:bg-indigo-700 text-white font-medium text-lg transition-colors cursor-pointer"
+                        className="mt-4 px-8 py-3 rounded-full bg-indigo-600 hover:bg-indigo-700 text-white font-medium text-lg transition-colors cursor-pointer flex items-center gap-2"
                     >
-                        Join the Waitlist
+                        <IconBrandGithub className="h-5 w-5" />
+                        View on GitHub
                     </motion.button>
                 </a>
             </div>

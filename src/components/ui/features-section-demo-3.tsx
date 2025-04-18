@@ -46,7 +46,7 @@ export default function FeaturesSectionDemo() {
                 "col-span-1 lg:col-span-3 lg:border-r dark:border-neutral-800",
         },
         {
-            title: "Real-Time Suggestions",
+            title: "Real-Time Suggestions (Coming Soon)",
             description:
                 "Get contextually relevant AI recommendations as you type, minimizing disruption and enhancing your writing flow.",
             skeleton: (
